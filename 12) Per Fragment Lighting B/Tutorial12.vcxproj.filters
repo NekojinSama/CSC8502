@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{df8da014-bbb5-4050-b617-222237ad3cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{882251ae-a4ba-482d-9903-390dbac79b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{ec6f674a-15a8-47bb-b3d4-b3938a4c56c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tutorial12.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\PerPixelFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shaders\PerPixelVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shaders\BumpFragment.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Shaders\BumpVertex.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
