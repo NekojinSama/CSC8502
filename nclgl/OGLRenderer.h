@@ -19,13 +19,13 @@ _-_-_-_-_-_-_-""  ""
 #include <fstream>
 #include <vector>
 
-#include "KHR\khrplatform.h"
-#include "glad\glad.h"
+#include "../Third Party/KHR/khrplatform.h"
+#include "../Third Party/glad/glad.h"
 
 #include "GL/GL.h"
-#include "KHR/WGLext.h"
+#include "../Third Party/KHR/WGLext.h"
 
-#include "SOIL/SOIL.h"
+#include "../Third Party/SOIL/SOIL.h"
 
 #include "Vector4.h"
 #include "Vector3.h"
