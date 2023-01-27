@@ -11,20 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MD5Anim.cpp" />
-    <ClCompile Include="MD5Mesh.cpp" />
     <ClCompile Include="OggSound.cpp" />
     <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundEmitter.cpp" />
     <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="SoundNode.cpp" />
     <ClCompile Include="SoundSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CameraNode.h" />
-    <ClInclude Include="MD5Anim.h" />
-    <ClInclude Include="MD5Mesh.h" />
     <ClInclude Include="OggSound.h" />
     <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundEmitter.h" />
     <ClInclude Include="SoundManager.h" />
     <ClInclude Include="SoundNode.h" />
     <ClInclude Include="SoundSystem.h" />
