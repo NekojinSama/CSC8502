@@ -9,8 +9,8 @@ void SoundManager::AddSound(string name) {
 		if (extension == "wav") {
 			s -> LoadFromWAV(name);
 			
-			alGenBuffers(1, &s -> buffer);
-			alBufferData(s -> buffer, s -> GetOALFormat(), s -> GetData(), s -> GetSize(), (ALsizei)s -> GetFrequency());
+			alGenBuffers(1, (ALuint*)s->GetBuffer());
+			alBufferData(s->GetBuffer(), s -> GetOALFormat(), s -> GetData(), s -> GetSize(), (ALsizei)s -> GetFrequency());
 		}
 		else {
 			cout << "Invalid extension ’" << extension << " ’!" << endl;

@@ -4,7 +4,7 @@
 #include <algorithm>
 
 #include "Sound.h"
-
+#include "SoundEmitter.h"
 
 #include "../OpenAL 1.1 SDK/include/al.h"
 #include "../OpenAL 1.1 SDK/include/alc.h"
@@ -12,6 +12,7 @@
 using std::vector;
 
 class SoundNode;
+class SoundEmitter;
 
 struct OALSource {
 	ALuint	source;
@@ -37,7 +38,7 @@ public:
 		delete instance;
 	}
 
-	static SoundSystem* GetSoundSystem() {
+	inline static SoundSystem* GetSoundSystem() {
 		return instance;
 	}
 

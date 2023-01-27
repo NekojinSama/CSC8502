@@ -4,6 +4,7 @@
 #include <map>
 #include <iostream>
 #include <fstream>
+#include "../nclgl/SceneNode.h"
 
 #include "../OpenAL 1.1 SDK/include/al.h"
 
@@ -21,6 +22,7 @@ struct FMTCHUNK {
 };
 
 class Sound {
+	friend class SoundManager;
 public:
 	char*			GetData()		{return data;}
 	int				GetBitRate()	{return bitRate;}
@@ -45,6 +47,9 @@ protected:
 
 	void			LoadFromWAV(string filename);
 	void			LoadWAVChunkInfo(ifstream &file, string &name, unsigned int &size);
+
+//protected:
+
 
 	char*			data;
 	ALuint			buffer;

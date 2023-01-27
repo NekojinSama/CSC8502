@@ -1,5 +1,5 @@
 #pragma once
-#include "../nclgl/SceneNode.h"
+//#include "../nclgl/SceneNode.h"
 #include "Sound.h"
 #include "SoundSystem.h"
 
