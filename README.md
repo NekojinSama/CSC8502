@@ -30,3 +30,8 @@ The project enabled me to accumulate a substantial amount of knowledge, which wa
 
 ## Problems faced during the project:
 Problems which I faced during this project would be creating a proper rendering pipeline for different meshes, and porting meshes from Unity to msh files. Learning to make a proper pipeline function took lots of time which could've been used to polish other aspects like having lights implemented on the imported assets.
+
+## Project Showcase:
+> Click/tap on the image for a YouTube video showing the gameplay:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pwkJQybwczg/0.jpg)](https://www.youtube.com/watch?v=pwkJQybwczg)
